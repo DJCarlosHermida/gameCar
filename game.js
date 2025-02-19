@@ -60,7 +60,7 @@ window.onload = () => {
                 endGame();
                 endSong();
                 startScreen.innerHTML =
-                    "Game over Perdiste! no hay nadie peor que vos..." +
+                    "Game over Perdiste! no hay nadie peor que vos... PUNTAJE: " +
                     player.score +
                     "<br>" +
                     " Probá de nuevo o envía un mensaje con la captura de tu logro a " +
