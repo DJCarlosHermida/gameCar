@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DJ | Juego | Autos.</title>
+    <link rel="shortcut icon" href="https://djcarloshermida.com.uy/img/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="juegoautos.css">
+
+</head>
+
+<body>
+    <div class="carGame">
+
+
+        <div class="score"></div>
+
+        <div class="startScreen">
+            <p> CLICK PARA COMENZAR<br />
+                USE LAS TECLAS DE DIRECCIÓN<br />
+                SI GOLPEAS OTRO AUTO, PIERDES. <br>
+                ¡SUERTE!
+            </p>
+        </div>
+
+        <div class="gameArea "></div>
+        <audio loop id="audio">
+            <source src="audiocar.mp3" type="">
+        </audio>
+
+        <div class="buttonArea">
+            <ul class="ul">
+                <li id="right"><i class="fas fa-caret-square-right"></i></li>
+                <li id="up"><i class="fas fa-caret-square-up"></i></li>
+                <li id="down"><i class="fas fa-caret-square-down"></i></li>
+                <li id="left"><i class="fas fa-caret-square-left"></i></li>
+            </ul>
+        </div>
+
+    </div>
+    <script src="game.js"></script>
+
+</body>
+
+</html>
